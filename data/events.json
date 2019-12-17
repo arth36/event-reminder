@@ -16,6 +16,14 @@
         "date": "2019-12-13"
     },
     {
+        "name": "Machine Learning Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "MNO",
+        "chiefguest": "Mr. MNO",
+        "date": "2019-12-17"
+    },
+    {
         "name": "Blockchain Development Seminar",
         "entryfees": 0,
         "started": true,

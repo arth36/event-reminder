@@ -2,6 +2,18 @@
     <p>This Web Application is for reminding you the upcoming events across the world,we will remind you the upcoming events you can check all the upcoming events by checking our website</p>
     <div class="events">
         <div>
+            <div ng-repeat="event in events" ng-init="runningevents(event)"></div>
+            <h2>{{homerunningtitle}}</h2>
+            <ul class="events-list">
+                <li ng-repeat="event in runningEvents">
+                    <h3>{{ event.name }} by {{ event.chiefguest }}</h3>
+                    <h4> Entry Fees: {{ event.entryfees }}</h4>
+                    <h5> hosted by: {{ event.host }}</h5>
+                    <h5> Date: {{ event.date | date }} </h5>
+                </li>
+            </ul>
+        </div>
+        <div>
             <div ng-repeat="event in events" ng-init="upcomingevents(event)"></div>
             <h2>{{homeupcomingtitle}}</h2>
             <ul class="events-list">
