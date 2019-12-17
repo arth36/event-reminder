@@ -4,34 +4,39 @@
         "entryfees": 0,
         "started": true,
         "host": "XYZ",
-        "chiefguest": "Mr. XYZ"
+        "chiefguest": "Mr. XYZ",
+        "date": "2019-12-10"
     },
     {
         "name": "Application Development Seminar",
         "entryfees": 0,
         "started": true,
         "host": "ABC",
-        "chiefguest": "Mr. ABC"
+        "chiefguest": "Mr. ABC",
+        "date": "2019-12-13"
     },
     {
         "name": "Blockchain Development Seminar",
         "entryfees": 0,
         "started": true,
         "host": "PQR",
-        "chiefguest": "Mr. PQR"
+        "chiefguest": "Mr. PQR",
+        "date": "2019-12-19"
     },
     {
         "name": "Front-end Development Seminar",
         "entryfees": 0,
         "started": true,
         "host": "DEF",
-        "chiefguest": "Mr. DEF"
+        "chiefguest": "Mr. DEF",
+        "date": "2019-12-28"
     },
     {
         "name": "Backend Development Seminar",
         "entryfees": 0,
         "started": true,
         "host": "JKL",
-        "chiefguest": "Mr. JKL"
+        "chiefguest": "Mr. JKL",
+        "date": "2020-01-10"
     }
 ]
