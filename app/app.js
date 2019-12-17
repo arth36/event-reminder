@@ -61,6 +61,7 @@ myEventApp.controller('EventController', ['$scope', '$http', function( $scope,$h
         var ndate= event.date;
         if(date<ndate)
         {
+            $scope.homeupcomingtitle=' yippee! stay in touch this events are coming! dont forgot to miss them they are waiting for you';
             $scope.upcomingtitle='Upcoming Events';
             $scope.upcomingEvents.push(event);
         }
