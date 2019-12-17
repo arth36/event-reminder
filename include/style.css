@@ -1,0 +1,44 @@
+body{
+    background-color: #25274d;
+    min-height: 100%;
+}
+.menu-bar{
+    background: #464866;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.menu-bar ul{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: -50px 10px;
+    padding-right: 35px;
+}
+.menu-bar li{
+    float: right;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.menu-bar a{
+    color: #aaabb8;
+}
+.menu-bar h1{
+    padding-left: 35px;
+    color: #aaabb8;
+}
+.home-content{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.home-content p{
+    font-size: 20px;
+    color: #2e9cca;
+}
+.footer-content{
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: -200px;
+    background: #464866;
+}

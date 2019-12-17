@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Web Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "XYZ",
+        "chiefguest": "Mr. XYZ"
+    },
+    {
+        "name": "Application Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "ABC",
+        "chiefguest": "Mr. ABC"
+    },
+    {
+        "name": "Blockchain Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "PQR",
+        "chiefguest": "Mr. PQR"
+    },
+    {
+        "name": "Front-end Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "DEF",
+        "chiefguest": "Mr. DEF"
+    },
+    {
+        "name": "Backend Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "JKL",
+        "chiefguest": "Mr. JKL"
+    }
+]
