@@ -5,13 +5,23 @@ myEventApp.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/home',{
             templateUrl: 'views/home.html',
-            component: 'EventController'
+            controller: 'EventController'
         })
         .when('/events',{
             templateUrl: 'views/events.html',
-            component: 'EventController'
+            controller: 'EventController'
         })
         .otherwise({
             redirectTo: '/home'
         })
+}]);
+
+myEventApp.controller('EventController', ['$scope', '$http', function( $scope,$http ){
+    $http.get('/data/events.json').then(successCallback, errorCallback);
+    function successCallback( data ){
+        $scope.events = data.data;
+    }
+    function errorCallback(error){
+        console.log('No Event Found')
+    }
 }]);

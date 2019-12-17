@@ -1,6 +1,8 @@
 <div class="events">
     <h1>All Events</h1>
     <ul class="events-list">
-
+        <li ng-repeat="event in events | orderBy: order">
+            <h3>{{ event.name }}</h3>
+        </li>
     </ul>
 </div>
