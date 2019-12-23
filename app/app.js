@@ -11,6 +11,10 @@ myEventApp.config(['$routeProvider', function($routeProvider){
             templateUrl: 'views/events.html',
             controller: 'EventController'
         })
+        .when('/addevent',{
+            templateUrl: 'views/addevent.html',
+            controller: 'EventController'
+        })
         .otherwise({
             redirectTo: '/home'
         })
@@ -72,7 +76,6 @@ myEventApp.controller('EventController', ['$scope', '$http', function( $scope,$h
     function successCallback( data ){
         $scope.events = data.data;
         $scope.len= $scope.events.length;
-        //console.log($scope.len);
     }
     function errorCallback(error){
         console.log('No Event Found');

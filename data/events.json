@@ -32,6 +32,14 @@
         "date": "2019-12-19"
     },
     {
+        "name": "Arth Development Seminar",
+        "entryfees": 0,
+        "started": true,
+        "host": "Arth",
+        "chiefguest": "Mr. Arth",
+        "date": "2019-12-20"
+    },
+    {
         "name": "Front-end Development Seminar",
         "entryfees": 0,
         "started": true,
