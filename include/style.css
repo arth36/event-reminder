@@ -59,3 +59,27 @@ body{
     text-align: center;
     color: #aaabb8;
 }
+.eventdiv{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.eventdiv h4{
+    color:#aaabb8;
+    text-align: center;
+}
+.eventdiv input{
+    width:100%;
+    align-self: center;
+    border-radius: 5px;
+    height: 30px;
+}
+.eventdiv ::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+.eventdiv ::-webkit-datetime-edit { 
+    text-align: center; 
+    font-size: 15px;
+    padding-left: 45px;
+}
