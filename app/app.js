@@ -71,6 +71,16 @@ myEventApp.controller('EventController', ['$scope', '$http', function( $scope,$h
             $scope.upcomingEvents.push(event);
         }
     }
+
+    $scope.addEvent=function(){
+        $scope.events.push({
+            name:$scope.name,
+            fees:$scope.fees,
+            chiefguest:$scope.chiefguest,
+            host:$scope.host,
+            date:$scope.date
+        });
+    }
     
     $http.get('/data/events.json').then(successCallback, errorCallback);
     function successCallback( data ){
