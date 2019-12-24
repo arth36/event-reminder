@@ -2,7 +2,7 @@
     <form name="addEventForm" class="form-main">
         <div class="eventdiv eventname">
             <h4>Enter Event Name:</h4>
-            <input type="text" placeholder="add event name" name="name" />
+            <input type="text" placeholder="add event name" name="name" ng-model="name" />
         </div>
         <div class="eventdiv eventfees">
             <h4>Entry Fees:</h4>
@@ -18,7 +18,10 @@
         </div>
         <div class="eventdiv eventhost">
             <h4>Event Date:</h4>
-            <input type="date" placeholder="event host name" name="date" />
+            <input type="date" placeholder="event host name" name="date" ng-model="date" value="{{ date | date: 'yyyy-MM-dd' }}"/>
+        </div>
+        <div class="eventsubmit">
+            <input class="submitbtn" type="submit" value="add new event"/>
         </div>
     </form>
 </div>
